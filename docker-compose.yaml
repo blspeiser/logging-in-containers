@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  logger-example:
+    build: .
+    ports: 
+      - "8888:80"
+    environment:
+      ACCESS_KEY: 'VjR8vu5p3QY5cvwP' # Obviously intended only for illustration purposes; should normally never be commited to version control.  
